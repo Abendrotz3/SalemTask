@@ -1,6 +1,7 @@
 import React from "react";
 import { UserAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
+import Product from "./Product";
 
 export const Dashboard = () => {
   const { session, signOut } = UserAuth();
@@ -29,6 +30,7 @@ export const Dashboard = () => {
           Sign out
         </p>
       </div>
+      <Product/>
     </div>
   );
 };
