@@ -1,5 +1,45 @@
 @import "tailwindcss";
 
+@theme {
+--color-shark-50: #f6f6f6;
+--color-shark-100: #e7e7e7;
+--color-shark-200: #d1d1d1;
+--color-shark-300: #b0b0b0;
+--color-shark-400: #888888;
+--color-shark-500: #6d6d6d;
+--color-shark-600: #5d5d5d;
+--color-shark-700: #4f4f4f;
+--color-shark-800: #454545;
+--color-shark-900: #3d3d3d;
+--color-shark-950: #242424;
+
+--color-polar-50: #f1fafa;
+--color-polar-100: #def2f2;
+--color-polar-200: #bde3e4;
+--color-polar-300: #8fcfd1;
+--color-polar-400: #5ab2b6;
+--color-polar-500: #3e969c;
+--color-polar-600: #367c84;
+--color-polar-700: #32656c;
+--color-polar-800: #2f545b;
+--color-polar-900: #2b474e;
+--color-polar-950: #182e34;
+
+--color-blue-chill-50: #f3fafa;
+--color-blue-chill-100: #d6f1f0;
+--color-blue-chill-200: #ace3df;
+--color-blue-chill-300: #7acecb;
+--color-blue-chill-400: #4fb1b2;
+--color-blue-chill-500: #338e90;
+--color-blue-chill-600: #287679;
+--color-blue-chill-700: #245e61;
+--color-blue-chill-800: #214b4e;
+--color-blue-chill-900: #1f3f42;
+--color-blue-chill-950: #0d2326;
+
+
+}
+
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
